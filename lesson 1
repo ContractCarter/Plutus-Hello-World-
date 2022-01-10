@@ -1,8 +1,8 @@
-import qualified Data.Text           as T
-import           Playground.Contract
-import           Plutus.Contract
-import           PlutusTx.Prelude
-import qualified Prelude             as Haskell
+import qualified Data.Text as T
+import Playground.Contract
+import Plutus.Contract
+import PlutusTx.Prelude
+import qualified Prelude as Haskell
 
 -- | A 'Contract' that logs a message.
 hello :: Contract () EmptySchema T.Text ()
